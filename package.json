@@ -1,0 +1,15 @@
+{
+  "name": "react-native-logo-draw",
+  "version": "0.1.0",
+  "description": "Trace a logo outline, then reveal its fill in React Native.",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "react-native": "src/index.ts",
+  "files": ["src", "lib"],
+  "scripts": {"build": "bob build", "lint": "eslint .", "test": "jest"},
+  "keywords": ["react-native", "logo", "animation", "svg", "splash"],
+  "license": "MIT",
+  "peerDependencies": {"react": ">=17", "react-native": ">=0.70", "react-native-svg": ">=13"},
+  "devDependencies": {"@types/react": "^18.0.0", "react": "^18.0.0", "react-native": "^0.73.0", "react-native-svg": "^14.0.0", "react-native-builder-bob": "^0.32.0"}
+}
